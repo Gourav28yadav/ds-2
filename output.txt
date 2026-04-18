@@ -1,0 +1,60 @@
+===== TASK 1: Dynamic Array =====
+appending 12 elements:
+  Resized: 2 -> 4
+  Resized: 4 -> 8
+  Resized: 8 -> 16
+  Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]  size=12 cap=16
+popping 3 times:
+  popped 12
+  popped 11
+  popped 10
+  Array: [1, 2, 3, 4, 5, 6, 7, 8, 9]  size=9 cap=16
+
+===== TASK 2A: Singly Linked List =====
+after inserting 10,20,30 at beginning:
+  10 -> 20 -> 30
+after inserting 40,50,60 at end:
+  10 -> 20 -> 30 -> 40 -> 50 -> 60
+after deleting 30:
+  10 -> 20 -> 40 -> 50 -> 60
+  99 not found
+after trying to delete 99:
+  10 -> 20 -> 40 -> 50 -> 60
+
+===== TASK 2B: Doubly Linked List =====
+initial list:
+  10 <-> 20 <-> 30 <-> 40
+after inserting 25 after 20:
+  10 <-> 20 <-> 25 <-> 30 <-> 40
+after deleting position 1:
+  10 <-> 25 <-> 30 <-> 40
+after deleting last position:
+  10 <-> 25 <-> 30
+
+===== TASK 3A: Stack =====
+stack after pushing 10, 20, 30:
+  30 -> 20 -> 10
+peek: 30
+pop: 30
+pop: 20
+stack now:
+  10
+
+===== TASK 3B: Queue =====
+queue after enqueue 100, 200, 300:
+  100 -> 200 -> 300
+front: 100
+dequeue: 100
+dequeue: 200
+queue now:
+  300
+
+===== TASK 4: Parentheses Checker =====
+  "([])" => Balanced
+  "([)]" => Not balanced
+  "(((" => Not balanced
+  "" (empty) => Balanced
+  "{[()]}" => Balanced
+  "((()))" => Balanced
+  "}{" => Not balanced
+
