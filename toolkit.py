@@ -1,7 +1,3 @@
-#name: Rudra pratap singh
-#roll no.: 2501730451
-# ---- Task 1: Dynamic Array ----
-
 class DynamicArray:
     def __init__(self, cap=2):
         self.cap = cap
